@@ -8,12 +8,15 @@ body{
   margin: 0;
 }
 
-
-header{
+.flex{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+
+header{
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
@@ -50,9 +53,6 @@ header nav span a{
 }
 
 #mission{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   padding-top: 70px;
@@ -70,12 +70,6 @@ header nav span a{
   height: 700px;
   padding-top: 70px;
   margin: auto;
-}
-
-.products{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .item {
@@ -97,11 +91,6 @@ header nav span a{
   margin: auto;
 }
 
-.stores{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
 .store {
   background-color: black;
